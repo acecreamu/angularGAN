@@ -22,7 +22,7 @@ AngularGAN inherits from [this](https://github.com/junyanz/pytorch-CycleGAN-and-
         -...
 ```
 where each image consist of couple of images A and B (input and output) concatenated along horizontal axis.</br>
-
+- Run `visdom` to open training visualization (optional)
 - Run training (change parameter `--model angular_gan_v2` to use v2)
 ```
 chmod a+x run.sh
