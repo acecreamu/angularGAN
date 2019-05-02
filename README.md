@@ -7,7 +7,8 @@ Supporting code to the paper <br>
 
 # AngularGAN
 The work presents an extension of the supervised image-to-image translation algorithm ["pix2pix" by Isola *et al.*](https://arxiv.org/abs/1611.07004) orriented specifically to the color constancy task.<br></br>
-AngularGAN inherits from [this](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) implementation of pix2pix in PyTorch. Therefore, you may follow original instruction for installation and dependincies. The new modules are implemented in Torch and do not require additional packages. </br></br>
+AngularGAN inherits from [this](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) implementation of pix2pix in PyTorch. Therefore, you may follow original instruction for installation and dependincies. The new modules are implemented in Torch and do not require additional packages. 
+#### Datasets are below!</br>
 ### Getting started
 - Put your data in datasets/facades in the format
 ```
