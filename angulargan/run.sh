@@ -1,1 +1,1 @@
-python train.py --checkpoints_dir ./checkpoints --dataroot ./datasets/facades --name angular_gan --model angular_gan_v2 --lambda_Angular 1  --lambda_L1 1 --which_model_netG unet_256 --which_direction BtoA --dataset_mode aligned --no_lsgan --norm batch --pool_size 0 --save_epoch_freq 10
+python train.py --checkpoints_dir ./checkpoints --dataroot ./datasets/facades --name angular_gan --model angular_gan --lambda_Angular 1  --lambda_L1 1 --which_model_netG unet_256 --which_direction BtoA --dataset_mode aligned --no_lsgan --norm batch --pool_size 0 --save_epoch_freq 10
