@@ -12,14 +12,14 @@ AngularGAN inherits from [this](https://github.com/junyanz/pytorch-CycleGAN-and-
 ### Getting started
 - Put your data in datasets/facades in the format
 ```
-facedes/
-----test/
---------xxx.jpg
---------yyy.jpg
---------...
-----train/
---------zzz.jpg
---------...
+-facedes/
+    -test/
+        -xxx.jpg
+        -yyy.jpg
+        -...
+    -train/
+        -zzz.jpg
+        -...
 ```
 where each image consist of couple of images A and B (input and output) concatenated along horizontal axis.</br>
 
