@@ -23,12 +23,12 @@ AngularGAN inherits from [this](https://github.com/junyanz/pytorch-CycleGAN-and-
 ```
 where each image consist of couple of images A and B (input and output) concatenated along horizontal axis.</br>
 
-- Run training 
+- Run training (change parameter `--model angular_gan_v2` to use v2)
 ```
 chmod a+x run.sh
 ./run.sh
 ```
-- Replace `runtest.sh` for testing  </br></br>
+- Replace `runtest.sh` for testing  (change parameter `--model angular_gan_v2` to use v2)</br></br>
 *We thank autors of pix2pix for their excellent work!*
 
 ![angulargan_framework](https://github.com/acecreamu/angularGAN/blob/master/angulargan.jpg)
